@@ -7,8 +7,9 @@ body, html {
   display: flex;
   justify-content: center;
   background-image: url('assets/hero-image.jpg');
-  background-size: cover;
+  background-position: 25%;
   background-repeat: no-repeat;
+  background-size: cover;
   height: 75vh;
 }
 p {
@@ -47,6 +48,26 @@ a:hover {
   width: 100vw;
 }
 
-@media only screen and (max-width: 338px) {
+@media only screen and (min-width: 769px) {
+  
+  body{
+    display: flex;
+  }
+
+  .left{
+    height: 100vh;
+  }
+  .right {
+    height: 100vh;
+  }
+  .photo-link{
+  width: 75vw;
+  height: 100vh;
+  background-position: right 100%;
+  }
+
+  P{
+    font-size: 0.9vw;
+  }
 
 }
