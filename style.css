@@ -18,6 +18,11 @@ a.photo-link:hover {
   color: pink;
 }
 
+.right {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 338px) {
 
 }
