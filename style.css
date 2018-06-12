@@ -11,16 +11,25 @@ body, html {
   background-image: url('assets/hero-image.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50%;
+  height: 75vh;
 }
-
+p {
+  align-self: center;
+}
 a.photo-link:hover {
   color: pink;
+}
+
+.left {
+  height: 75vh;
 }
 
 .right {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 25vh;
+  width: 15rem;
 }
 
 @media only screen and (max-width: 338px) {
