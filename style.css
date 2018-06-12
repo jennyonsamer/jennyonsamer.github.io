@@ -4,11 +4,12 @@ body, html {
 }
 
 .photo-link {
-  position: absolute;
+  display: flex;
+  justify-content: center;
   color: black;
   text-decoration: none;
   background-image: url('assets/hero-image.jpg');
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
