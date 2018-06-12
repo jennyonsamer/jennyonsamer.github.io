@@ -23,7 +23,7 @@ p {
   font-size: 10vw;
   color: white;
 }
-a.photo-link:hover {
+a {
   color: pink;
 }
 
