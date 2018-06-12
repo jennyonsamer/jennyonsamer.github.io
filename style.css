@@ -9,8 +9,9 @@ body, html {
   color: black;
   text-decoration: none;
   background-image: url('assets/hero-image.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 50%;
 }
 
 a.photo-link:hover {
