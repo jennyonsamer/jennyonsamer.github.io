@@ -1,4 +1,26 @@
-.hero-img {
-height: 100vh;
+body, html { 
+  overflow: hidden; 
+  margin: 0;
 }
 
+ body{
+  background-image: url('assets/hero-image.jpg');
+}
+
+
+.photo-link {
+  position: absolute;
+}
+
+@media only screen and (min-width: 338px) {
+  
+  body,html {
+    overflow-y: hidden; 
+    margin: 0;
+  }
+  
+  .hero-img {
+    height: 100vh;
+    width: unset;
+  }
+}
